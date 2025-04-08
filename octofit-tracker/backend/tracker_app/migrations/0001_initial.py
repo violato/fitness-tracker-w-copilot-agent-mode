@@ -78,7 +78,7 @@ class Migration(migrations.Migration):
                     "user",
                     models.ForeignKey(
                         on_delete=django.db.models.deletion.CASCADE,
-                        to="tracker_app.user",
+                        to="octofit_tracker.user",
                     ),
                 ),
             ],
@@ -102,7 +102,7 @@ class Migration(migrations.Migration):
                     "user",
                     models.ForeignKey(
                         on_delete=django.db.models.deletion.CASCADE,
-                        to="tracker_app.user",
+                        to="octofit_tracker.user",
                     ),
                 ),
             ],

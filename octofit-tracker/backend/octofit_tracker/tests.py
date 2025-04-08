@@ -1,5 +1,5 @@
 from django.test import TestCase
-from tracker_app.models import User, Team, Activity, Leaderboard, Workout
+from octofit_tracker.models import User, Team, Activity, Leaderboard, Workout
 
 class UserModelTest(TestCase):
     def test_user_creation(self):

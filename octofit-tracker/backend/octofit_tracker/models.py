@@ -1,7 +1,7 @@
 from djongo import models
 
 class User(models.Model):
-    email = models.EmailField(unique=True)
+    email = models.EmailField(primary_key=True, unique=True)
     name = models.CharField(max_length=255)
     created_at = models.DateTimeField(auto_now_add=True)
 
