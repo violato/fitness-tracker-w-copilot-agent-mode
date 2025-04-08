@@ -12,8 +12,8 @@ function Leaderboard() {
 
   return (
     <div>
-      <h1>Leaderboard</h1>
-      <table>
+      <h1 className="display-5">Leaderboard</h1>
+      <table className="table table-striped">
         <thead>
           <tr>
             <th>User</th>
