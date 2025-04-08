@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure--*frmco$8@cp&*orm9m9ed%ez0+7m^)t94wz)_bo07gnh_sz&9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "organic-orbit-jpww9qrj4xhq49w-8000.app.github.dev"]
 
 
 # Application definition
