@@ -82,8 +82,8 @@ DATABASES = {
         'ENFORCE_SCHEMA': True,
         'CLIENT': {
             'host': 'mongodb://localhost:27017',
-            'username': 'your_username',
-            'password': 'your_password',
+            'username': 'octoadmin',
+            'password': 'abc123',
             'authSource': 'admin',
             'authMechanism': 'SCRAM-SHA-1',
         }
